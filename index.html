@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" onsubmit="return false">
+            <p class="myTitle">NOTE APP</p>
+            <textarea name="note" id="note" cols="75" rows="3" placeholder="Write your note here"></textarea><br><br>
+            <input type="submit" value="Add Note" class="mybutton" onclick="Add()">
+            <input type="submit" value="Count Vowels" class="mybutton" onclick="vCounter()">
+        </form>
+        <div class="cardrow">
+            <div class="card">
+                <p class="notetext"></p>
+                <button class="mybutton" onclick="Detail(0)">View Detail</button>
+            </div>
+            <div class="card">
+                <p class="notetext"></p>
+                <button class="mybutton" onclick="Detail(1)">View Detail</button>
+            </div>
+        </div>
+        <div class="cardrow">
+            <div class="card">
+                <p class="notetext"></p>
+                <button class="mybutton" onclick="Detail(2)">View Detail</button>
+            </div>
+            <div class="card">
+                <p class="notetext"></p>
+                <button class="mybutton" onclick="Detail(3)">View Detail</button>
+            </div>
+        </div>
+        <div class="cardrow">
+            <div class="card">
+                <p class="notetext"></p>
+                <button class="mybutton" onclick="Detail(4)">View Detail</button>
+            </div>
+            <div class="card">
+                <p class="notetext"></p>
+                <button class="mybutton" onclick="Detail(5)">View Detail</button>
+            </div>
+        </div>
+        <div class="cardrow">
+            <div class="card">
+                <p class="notetext"></p>
+                <button class="mybutton" onclick="Detail(6)">View Detail</button>
+            </div>
+            <div class="card">
+                <p class="notetext"></p>
+                <button class="mybutton" onclick="Detail(7)">View Detail</button>
+            </div>
+        </div>
+        <div class="modal">
+            <span class="material-symbols-outlined delete" onclick="Delete()">
+                delete
+            </span>
+            <span class="material-symbols-outlined close" onclick="Close()">
+                close
+            </span>
+            <p class="textdetail"></p>
+        </div>
+        <div class="backgroundB"></div>
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    position: relative;
+}
+.myTitle{
+    color: rgb(0, 0, 206);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.mybutton{
+    background-color: rgb(30, 148, 30);
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 2px;
+    color: rgb(224, 224, 224);
+    padding: 8px;
+}
+.mybutton:hover{
+    background-color: rgb(1, 117, 1);
+    cursor: pointer;
+}
+.card .mybutton{
+    background-color: rgb(37, 37, 255);
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.card .mybutton:hover{
+    background-color: rgb(2, 2, 194);
+}
+.cardrow{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.card{
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    width: 45%;
+    min-height: 80px;
+    border: 1px solid rgb(173, 173, 173);
+    display: none;
+}
+.card p{
+    margin-bottom: 50px;
+}
+.modal{
+    background-color: rgb(214, 214, 214);
+    width: 1024px;
+    height: auto;
+    position: fixed;
+    top: 100px;
+    text-align: justify;
+    z-index: 99;
+    display: none;
+}
+.delete{
+    color:rgb(125, 125, 125);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.delete:hover{
+    color:rgb(255, 0, 0);
+    cursor: pointer;
+}
+.close{
+    color:rgb(125, 125, 125);
+    position: absolute;
+    top: 15px;
+    left: 40px;
+}
+.close:hover{
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+.modal p{
+    margin: 40px;
+}
+.backgroundB{
+    background-color: rgba(0, 0, 0, 0.489);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    left:0px;
+    display: none;
+}
